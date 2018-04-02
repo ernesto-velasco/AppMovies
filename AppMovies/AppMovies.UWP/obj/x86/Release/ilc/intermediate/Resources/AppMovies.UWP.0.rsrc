@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:AppMovies.Pages"
+             x:Class="AppMovies.App">
+	<Application.Resources>
+
+		<!-- Application resource dictionary -->
+        <ResourceDictionary>
+            <Color x:Key="MainColor">#5677FC</Color>
+            <Color x:Key="FontColor">#ffffff</Color>
+            <Color x:Key="AccentColor1">#9F0CE8</Color>
+            <Color x:Key="AccentColor2">#bbbbbb</Color>
+            <Color x:Key="BackgroundColor">#ffffff</Color>
+            <Style TargetType="local:TabMenu">
+                <Setter Property="BarBackgroundColor" Value="#673AB7"/>
+            </Style>
+            <Style TargetType="NavigationPage">
+                <Setter Property="BarBackgroundColor" Value="#673AB7"/>
+                <Setter Property="BarTextColor" Value="#ffffff"/>
+            </Style>
+            <Style x:Key="Label" TargetType="Label">
+                <Setter Property="TextColor" Value="#424242"/>
+                <Setter Property="HorizontalOptions" Value="Center"/>
+            </Style>
+            <Style x:Key="BtnFollow" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="#673AB7"/>
+                <Setter Property="TextColor" Value="#ffffff"/>
+                <Setter Property="HeightRequest" Value="60"/>
+            </Style>
+        </ResourceDictionary>
+	</Application.Resources>
+</Application>

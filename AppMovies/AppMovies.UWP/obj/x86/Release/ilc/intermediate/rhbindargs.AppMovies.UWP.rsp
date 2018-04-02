@@ -1,0 +1,16 @@
+/osver:6.2
+/appcontainer
+"/runtime:mrt100_app"
+/eh:clr
+/pdb
+"/nativeLink:C:\Users\ernesto\.nuget\packages\microsoft.net.native.compiler\2.0.3\tools\x86\ilc\lib\Native\vmath.lib"
+/customImports
+/methodBodyFolding
+"C:\Users\ernesto\source\repos\AppMovies\AppMovies\AppMovies.UWP\obj\x86\Release\ilc\intermediate\MDIL\AppMovies.UWP.mdilexe"
+"/i:C:\Users\ernesto\source\repos\AppMovies\AppMovies\AppMovies.UWP\obj\x86\Release\ilc\intermediate\MDIL"
+"/out:C:\Users\ernesto\source\repos\AppMovies\AppMovies\AppMovies.UWP\obj\x86\Release\ilc\intermediate\Native\AppMovies.UWP.exe"
+"/pdbAltPath:C:\Users\ernesto\source\repos\AppMovies\AppMovies\AppMovies.UWP\bin\x86\Release\ilc"
+"/res:C:\Users\ernesto\source\repos\AppMovies\AppMovies\AppMovies.UWP\obj\x86\Release\ilc\intermediate\Native.res"
+"/i:C:\Program Files (x86)\Microsoft SDKs\NuGetPackagesFallback\microsoft.net.native.sharedlibrary-x86\2.0.0\tools\SharedLibrary\ret\MDIL"
+/shimexe
+"/classlib:SharedLibrary"

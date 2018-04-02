@@ -1,0 +1,3 @@
+AppMovies.UWP, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  AppMovies.UWP.App.xaml
+  AppMovies.UWP.MainPage.xaml

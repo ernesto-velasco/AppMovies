@@ -1,0 +1,11 @@
+"C:\Users\ernesto\source\repos\AppMovies\AppMovies\AppMovies.UWP\obj\x86\Release\ilc\in\AppMovies.UWP.exe"
+"C:\Users\ernesto\source\repos\AppMovies\AppMovies\AppMovies.UWP\obj\x86\Release\ilc\in\Xamarin.Forms.Core.dll"
+"C:\Users\ernesto\source\repos\AppMovies\AppMovies\AppMovies.UWP\obj\x86\Release\ilc\in\Xamarin.Forms.Platform.dll"
+"C:\Users\ernesto\source\repos\AppMovies\AppMovies\AppMovies.UWP\obj\x86\Release\ilc\in\Xamarin.Forms.Platform.UAP.dll"
+"C:\Users\ernesto\source\repos\AppMovies\AppMovies\AppMovies.UWP\obj\x86\Release\ilc\in\Xamarin.Forms.Xaml.dll"
+/Lib:"C:\Users\ernesto\source\repos\AppMovies\AppMovies\AppMovies.UWP\obj\x86\Release\ilc\in"
+/Lib:"C:\Users\ernesto\.nuget\packages\microsoft.net.native.compiler\2.0.3\tools\x86\ilc\lib\Private"
+/WinMD:"C:\Users\ernesto\source\repos\AppMovies\AppMovies\AppMovies.UWP\obj\x86\Release\ilc\in\WinMetadata\Windows.winmd"
+/VSTelemetrySessionSettings:"{"AppId":1001,"AppInsightsInstrumentationKey":"f144292e-e3b2-4011-ac90-20e5c03fbce5","AsimovInstrumentationKey":"AIF-312cbd79-9dbb-4c48-a7da-3cc2a931cb70","HostName":"Dev14","Id":"cdc5b4c9-608e-43ea-8b05-c205c6ca86d6","IsOptedIn":true,"ProcessStartTime":636577976985561511,"UserId":"91f0012e-e492-4c2b-b947-49720f29e78f"}"
+/RdXmlPath:"C:\Users\ernesto\.nuget\packages\microsoft.net.native.compiler\2.0.3\tools\LibraryXML"
+/RunOnlyPreDR

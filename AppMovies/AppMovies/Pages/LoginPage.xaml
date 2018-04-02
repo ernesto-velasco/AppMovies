@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:AppMovies.Pages"
+             x:Class="AppMovies.Pages.LoginPage"
+             BackgroundColor="{StaticResource BackgroundColor}">
+
+    <Grid Margin="20,70,20,0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <!-- Content-->
+        <StackLayout Grid.Row="0" Margin="20,0" VerticalOptions="Center">
+            <Label Text="Logo" Style="{StaticResource Label}"/>
+            <Label Text="Nombre de la aplicaión" Style="{StaticResource Label}"/>
+        </StackLayout>
+        <StackLayout Grid.Row="1" VerticalOptions="Center">
+            <Entry Placeholder="Email" Keyboard="Email"/>
+            <Entry Placeholder="Contraseña" IsPassword="True" />
+        </StackLayout>
+        <StackLayout Grid.Row="2" VerticalOptions="Center">
+            <Button Text="Login" Style="{StaticResource BtnFollow}"
+                    BorderRadius="19"
+                    Clicked="btnTabsHomePage_Clicked"/>
+            <Label x:Name="LblRegClick" Text="¿No tienes una cuenta? Registrate" HorizontalOptions="CenterAndExpand"/>
+        </StackLayout>
+        <StackLayout Grid.Row="3" VerticalOptions="End" HorizontalOptions="Center" Margin="0,0,0,5">
+            <Label x:Name="LblResClick" Text="¿Olvidaste tu contraseña?"/>
+        </StackLayout>
+    </Grid>
+    
+</ContentPage>

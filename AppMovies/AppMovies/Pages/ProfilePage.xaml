@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppMovies.Pages.ProfilePage"
+             Title="Perfil">
+    <ScrollView >
+        <Grid RowSpacing="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <!-- header background-->
+            <Image VerticalOptions="End" Aspect="AspectFill">
+                <Image.Source>
+                    <OnPlatform x:TypeArguments="FileImageSource"
+                            Android="MadMaxBanner.jpg"
+                            WinPhone="Resourses/MadMaxBanner.jpg"/>
+                </Image.Source>
+            </Image>
+            
+            <!--profile name-->
+            <StackLayout Grid.Row="1" Padding="0,50,0,0">
+                <Label Text="Luis Santacruz" />
+                <!-- follow button-->
+            </StackLayout>
+            <!-- social status-->
+            <Grid Grid.Row="2" Margin="0,30" ColumnSpacing="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <StackLayout Grid.Column="0">
+                    <Label Text="100" />
+                    <Label Text="Vistas" />
+                </StackLayout>
+                <StackLayout Grid.Column="1">
+                    <Label Text="50" />
+                    <Label Text="Por Ver" />
+                </StackLayout>
+            </Grid>
+            <!-- profile decription-->
+            <Label Text="Descripción del perfil" Grid.Row="3" Margin="20,0" />
+            
+            <!-- profile picture-->
+            <Image VerticalOptions="End" Aspect="Fill"
+                   HorizontalOptions="Center"
+                     HeightRequest="100"
+                     WidthRequest="100"
+                     TranslationY="50"
+                   >
+                <Image.Source>
+                    <OnPlatform x:TypeArguments="FileImageSource"
+                            Android="profileimg.jpg"
+                            WinPhone="Resourses/profileimg.jpg"/>
+                </Image.Source>
+            </Image>
+        </Grid>
+    </ScrollView>
+</ContentPage>

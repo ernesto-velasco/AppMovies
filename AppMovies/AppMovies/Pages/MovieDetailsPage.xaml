@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppMovies.Pages.MovieDetailsPage">
+    
+        <Grid RowSpacing="0">
+            <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+            <!-- background-->
+            <Image VerticalOptions="FillAndExpand" Aspect="AspectFill">
+                <Image.Source>
+                    <OnPlatform x:TypeArguments="FileImageSource"
+                            Android="ExMachina.jpg"
+                            WinPhone="Resourses/ExMachina.jpg"/>
+                </Image.Source>
+            </Image>
+        <StackLayout Grid.Row="0" BackgroundColor="Black" Opacity="0.5"></StackLayout>
+        <ScrollView>
+            <!-- Movie Details-->
+            <StackLayout Grid.Row="0" Padding="0,50,0,0" TranslationY="150" Margin="20,0">
+                <Label Text="Ex_Machina" BackgroundColor="#0,0,0,0.6" TextColor="White"/>
+                <Label Text="Sinopsis" TextColor="White"/>
+                <Label Text="A young programmer is selected to participate in a ground-breaking experiment in synthetic intelligence by evaluating the human qualities of a breath-taking humanoid A.I."
+                      TextColor="White" />
+                <Grid Margin="0,30" ColumnSpacing="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <StackLayout Grid.Row="0" Grid.Column="0">
+                        <Button Text="Por Ver"/>
+                    </StackLayout>
+                    <StackLayout Grid.Row="0" Grid.Column="1">
+                        <Button Text="Vista"/>
+                    </StackLayout>
+                    <StackLayout Grid.Row="0" Grid.Column="2">
+                        <Button Text="+ Lista"/>
+                    </StackLayout>
+                    <StackLayout Grid.Row="1" Grid.ColumnSpan="3">
+                        <Button Text="Buscar Horarios"/>
+                    </StackLayout>
+                </Grid>
+                
+            </StackLayout>
+        </ScrollView>
+    </Grid>
+    
+</ContentPage>

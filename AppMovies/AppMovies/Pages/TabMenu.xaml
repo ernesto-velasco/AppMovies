@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:local="clr-namespace:AppMovies.Pages"
+             x:Class="AppMovies.Pages.TabMenu"
+            Title="Nom. App.">
+    <!--Pages can be added as references or inline-->
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Name="MenuItem1" Order="Primary" Icon="icSearch.png" Text="Buscar" Priority="0" />
+        <ToolbarItem Name="MenuItem2" Order="Primary" Icon="icAccount.png" Text="Peril" Priority="1" 
+                     Clicked="btnTabsProfilePage_Clicked"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage Title="Proximamente">
+        <StackLayout>
+            <Button x:Name="btnMovieDetailsPage"
+                Text="Detalles de pelicula"
+                Clicked="btnMovieDetailsPage_Clicked"/>
+            <Button x:Name="btnLoginPage"
+                Text="Login"
+                Clicked="btnLoginPage_Clicked"/>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="Recientes">
+    </ContentPage>
+    <ContentPage Title="Por Ver" />
+    <ContentPage Title="Mis Listas" />
+</TabbedPage>

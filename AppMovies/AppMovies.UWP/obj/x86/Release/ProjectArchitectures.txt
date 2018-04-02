@@ -1,0 +1,1 @@
+C:\Users\ernesto\source\repos\AppMovies\AppMovies\AppMovies.UWP\AppMovies.UWP.csproj;x86
